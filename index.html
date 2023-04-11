@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Foods WebApp</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+        #topbar{
+            background-color:blue;
+            padding: 10px;
+            color: white;
+        }
+        .menu-item{
+            font-size: 30px;
+            padding: 8px;
+        }
+        #food-items{
+            font-size: 30px;
+            padding-left: 15px;
+        }
+        .food-menu{
+            font-size: 30px;
+        }
+        .images{
+            width: 350px;
+            height: 350px;
+        }
+        .center{
+            text-align: center;
+        }
+        topbar:hover{
+            background-color: black;
+        
+        }
+        .menu-item:hover{
+            background-color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        </style>
+</head>
+<body style="margin: 0;">
+    <div id="topbar">
+        <span  class="menu-item" >Index</span>
+        <span  class="menu-item" >Food</span>
+        <span  class="menu-item">About</span>
+    </div>
+    <h3 id="food-items">Top 5 Favourite Food Items</h3>
+<ul>
+    <li><a class="food-menu" href="#Biryani"> Biryani</a></li>
+    <li><a class="food-menu" href="#Dosa"> Dosa</a></li>
+    <li><a class="food-menu" href="#Gulab Jamun"> Gulab Jamun</a></li>
+    <li><a class="food-menu" href="#Pav Bhaji"> Pav Bhaji</a></li>
+    <li><a class="food-menu" href="#Ice Cream"> Ice Cream</a></li>
+</ul>
+<div class="center" >
+    <img class="images" id="Biryani" src="https://i.pinimg.com/564x/57/99/cd/5799cdcbd381f4485f1fbc3ed760d782.jpg" alt="Chicken Biryani"/>
+    <p> Biryani</p>
+</div>
+<div class="center" >
+    <img class ="images"  id="Dosa" src="https://i.pinimg.com/564x/79/2e/07/792e0785538e2c9c682174f9563ad658.jpg" alt="Dosa" />
+    <p>Dosa</p>
+</div>
+<div class="center" >
+    <img class="images" id="Gulab Jamun" src="https://i.pinimg.com/564x/07/bd/d2/07bdd2143a08cace584643357384b6d2.jpg" alt="Gulab Jamun" />
+    <p>Gulab Jamun</p>
+</div>
+<div class="center" >
+    <img class="images" id="Pav Bhaji" src="https://i.pinimg.com/564x/9d/c9/15/9dc91554ce45e92f03aa59bb32b0dff6.jpg" alt="Pav Bhaji"/>
+    <p>Pav Bhaji</p>
+</div>
+<div class="center" >
+    <img class="images" id="Ice Cream" src="https://i.pinimg.com/564x/ea/a8/db/eaa8dbdd93647e40eb0bc460fd342ddc.jpg" alt="Ice Cream"/>
+    <p>Ice Cream</p>
+</div>
+</body>
+</html>
